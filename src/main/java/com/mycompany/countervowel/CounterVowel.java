@@ -37,7 +37,8 @@ public class VowelCounter {
          return vowelCount; // Return the total number of vowels
     }
 
-    public static void main(String[] args) {
-        
-    }
-}
+     public static void main(String[] args) {
+        // Create a scanner object to get user input
+        Scanner sc = new Scanner(System.in);
+
+
