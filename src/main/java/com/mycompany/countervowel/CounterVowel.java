@@ -15,7 +15,7 @@ public class CounterVowel {
  *
  * @author Angel Vhugie
  */
-public class VowelCounter {
+
     // Function to count vowels in the input string
     public static int countVowels(String sentence) {
         // Convert the sentence to lowercase to make it case insensitive
@@ -41,4 +41,11 @@ public class VowelCounter {
         // Create a scanner object to get user input
         Scanner sc = new Scanner(System.in);
 
+// Ask the user to input a sentence
+        System.out.println("Enter a sentence: ");
+        String inputSentence = sc.nextLine();
+
+        
+
+      
 
