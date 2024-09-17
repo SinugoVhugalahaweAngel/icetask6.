@@ -46,6 +46,10 @@ public class CounterVowel {
         String inputSentence = sc.nextLine();
 
         
-
+// Call the countVowels function and display the result
+        int numberOfVowels = countVowels(inputSentence);
+        System.out.println("Number of vowels in the sentence: " + numberOfVowels);
+    }
+}
       
 
